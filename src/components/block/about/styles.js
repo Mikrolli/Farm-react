@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { P, Section } from '../../styled';
-import aboutImage from '../../../assets/about.svg';
+import styled from "styled-components";
+import { P, Section } from "../../styled";
+import aboutImage from "../../../assets/about.svg";
 
 export const StyledAbout = styled(Section)`
   position: relative;
@@ -33,4 +33,3 @@ export const Text = styled(P)`
   padding-right: 116px;
   margin-bottom: 40px;
 `;
-
