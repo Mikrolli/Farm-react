@@ -4,11 +4,11 @@ import { StyledSection, Copyright } from './styles';
 
 function Footer () {
   return (
-    <StyledSection>
+    <StyledSection as='footer'>
       <Logo />
       <Copyright>Создано 2022</Copyright>
     </StyledSection>
   );
-};
+}
 
 export default Footer;

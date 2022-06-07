@@ -41,3 +41,4 @@ export const Owner = styled.span`
 export const Text = styled(P)`
   text-align: left;
 `;
+

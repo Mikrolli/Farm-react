@@ -6,11 +6,12 @@ import { defaultTheme } from "./thems/default";
 
 import App from "./components/app/app";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <StrictMode>
     <ThemeProvider theme={defaultTheme}>
       <App />
     </ThemeProvider>
-  </React.StrictMode>
+  </StrictMode>,
+  rootElement
 );
